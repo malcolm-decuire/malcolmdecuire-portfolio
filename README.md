@@ -30,6 +30,7 @@ yarn dev
 ```
 
 ### PROJECT STRUCTURE: 
+```
 ├── public
 │   └── images //EDIT FOR DEV NEEDS
 ├── src
@@ -39,6 +40,7 @@ yarn dev
 │   ├── styles // CONFIG. IF USER WANTS TO CUSTOMIZE THE COLORS
 │   └── theme.ts
 
+```
 ## CREDITS 
 ---
 Creative Commons Licenses
