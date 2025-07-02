@@ -1,0 +1,69 @@
+# ===========================
+# 🔧 Development Artifacts
+# ===========================
+
+# Compiled TypeScript
+*.tsbuildinfo
+
+# Local environment variables
+.env
+.env.*       # includes .env.production, .env.local, etc.
+
+# Log files
+*.log
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# ===========================
+# 🚫 Project-Specific Ignores
+# ===========================
+
+# Docker files
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Cheatsheets and app trees
+CHEATSHEET*.md
+apptree.txt
+
+# Any file with 'readmetree' in the name (case-insensitive)
+*[Rr][Ee][Aa][Dd][Mm][Ee][Tt][Rr][Ee][Ee]*
+
+# ===========================
+# 📦 Dependencies
+# ===========================
+
+node_modules/
+yarn.lock
+
+# ===========================
+# ⚙️ Build Output (optional if using Next.js)
+# ===========================
+
+.next/
+out/
+dist/
+coverage/
+
+# ===========================
+# 🧪 Testing Artifacts (if applicable)
+# ===========================
+
+*.test.ts
+*.spec.ts
+coverage/
+.nyc_output/
+
+# ===========================
+# 📸 Asset Thumbnails or Cache (if generated)
+# ===========================
+
+*.thumb.*
+.cache/

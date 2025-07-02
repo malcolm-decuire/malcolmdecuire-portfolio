@@ -1,0 +1,43 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+import designSystem from './decurelabs-applieddataengineering.png'
+
+export const article = {
+  author: 'Decure Labs',
+  date: '2019-09-30',
+  title: 'Lessons from Blue Clover Devices',
+  description:
+    'Success is a marathon!',
+}
+
+export const metadata = {
+  title: article.title,
+  description: article.description,
+}
+
+export default (props) => <ArticleLayout article={article} {...props} />
+
+Blue Clover Devices (BCD) is a technology company that focuses on providing software and hardware solutions for the manufacturing industry, 
+particularly in the realm of Internet of Things (IoT) devices and microcontroller development
+
+<Image src={designSystem} alt="" />
+
+## Situation:
+Blue Clover Devices needed to streamline microcontroller testing and the sales demo environment to reduce engineering resources in pre-sales and improve customer satisfaction in edge cases.
+
+## Task:
+
+My team had to collaborate with the software team to develop microcontroller test suites.
+We acted as a technical partner to support pre/post sales processes and RFP responses.
+My team was also tasked with improving the sales demo environments for hardware products and accelerate pre-sales engagements.
+We worked with DevOps to automate deployments and improve overall software delivery pipelines.
+
+## Action:
+
+- We created microcontroller tests using YAML & Docker, reducing edge case requests by clients.
+- We partnered with CTO to build and maintain the sales demo environment, optimizing the pre-sales cycle.
+- We gathered requirements and developed test cases using YAML & Python, ensuring thorough testing across products & implemented CI/CD pipelines with DevOps, increasing deployment efficiency.
+## Result:
+
+- Reduced client requests by 50% for microcontroller tests through the test suite development.
+- Decreased cash conversion cycle by 50% and reduced engineering involvement in pre-sales by 20%.
+- Delivered 10 successful projects within time and budget, driving high customer satisfaction and generating repeat business.
